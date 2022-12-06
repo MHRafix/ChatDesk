@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.btn_search {
+  opacity: 1;
+  color: #979bab;
+  outline: none;
+  letter-spacing: 1;
+  width: 10%;
+  background: #e1e1e1;
+  border-top-left-radius: 99999999px;
+  border-bottom-left-radius: 99999999px;
+  padding: 8.4px;
+}
+
+.btn_search:hover {
+  color: #333;
+  transition: 0.3s;
+}
+
+.btn_send {
+  opacity: 1;
+  color: #979bab;
+  outline: none;
+  letter-spacing: 1;
+  width: 38px;
+  height: 38px;
+  background: #e1e1e1;
+  border-radius: 99999999px;
+  padding: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  bottom: 6px;
+  right: 0px;
+  z-index: 999;
+}
+
+#chat_user_card:hover {
+  background: #e6e6e6;
+  transition: 0.3s;
+}
+
+#messages {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: 0px !important;
+}
+
+/* scroll bar css */
+#recent_friends_area::-webkit-scrollbar {
+  width: 0.2rem !important;
+}
+
+#recent_friends_area::-webkit-scrollbar:horizontal {
+  width: 0.2rem !important;
+  height: 0.2rem !important;
+}
+
+#recent_friends_area::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+#recent_friends_area::-webkit-scrollbar-thumb {
+  background: #8becbb;
+  border-radius: 5rem !important;
+}
+
+#search_result::-webkit-scrollbar {
+  width: 0.2rem !important;
+}
+
+#search_result::-webkit-scrollbar:horizontal {
+  width: 0.2rem !important;
+  height: 0.2rem !important;
+}
+
+#search_result::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+#search_result::-webkit-scrollbar-thumb {
+  background: #8becbb;
+  border-radius: 5rem !important;
+}
+
+#remove_member_wrapper::-webkit-scrollbar {
+  width: 0.2rem !important;
+}
+
+#remove_member_wrapper::-webkit-scrollbar:horizontal {
+  width: 0.2rem !important;
+  height: 0.2rem !important;
+}
+
+#remove_member_wrapper::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+#remove_member_wrapper::-webkit-scrollbar-thumb {
+  background: #ff0202;
+  border-radius: 5rem !important;
+}
+#add_member_wrapper::-webkit-scrollbar {
+  width: 0.2rem !important;
+}
+
+#add_member_wrapper::-webkit-scrollbar:horizontal {
+  width: 0.2rem !important;
+  height: 0.2rem !important;
+}
+
+#add_member_wrapper::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+#add_member_wrapper::-webkit-scrollbar-thumb {
+  background: #22c35e;
+  border-radius: 5rem !important;
+}
+
+#messages::-webkit-scrollbar {
+  width: 0rem !important;
+}
+
+.styles_scrollable-div__prSCv::-webkit-scrollbar {
+  width: 0rem !important;
+}
+
+/* button #create_group_btn_style  */
+/* file input css here  */
+#file_field_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #2ecc71;
+  position: relative;
+  zindex: 5555555555;
+}
+
+#file_field_wrapper input[type="file"] {
+  display: none;
+}

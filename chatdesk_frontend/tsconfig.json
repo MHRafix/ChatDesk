@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/assets/fake_data/data.js",
+    "src/styles/global.css",
+    "models/Chat.js",
+    "src/hooks/database/dbConnect.js",
+    "src/Context/ChatProvider.js",
+    "src/hooks/jwt/token.js",
+    "src/components/common/modal/ConfirmModal.jsx",
+    "src/hooks/userInfo/userAuth.ts",
+    "src/config/socketConfig.js"
+  ],
+  "exclude": ["node_modules"]
+}
